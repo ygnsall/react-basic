@@ -1,4 +1,4 @@
-//MyArticle
+MyArticle
 function MyArticle({ title, desc }) {
   return (
     <section>
@@ -7,6 +7,6 @@ function MyArticle({ title, desc }) {
         <p> {desc} </p>
       </article>
     </section>
-  )
+  );
 }
 export default MyArticle;

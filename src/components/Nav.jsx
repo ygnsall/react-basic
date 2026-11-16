@@ -12,7 +12,7 @@ function Nav() {
         <a href="">애니메이션 구현</a>
       </li>
     </ul>
-  )
+  );
 }
 
 export default Nav;

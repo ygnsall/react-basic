@@ -1,9 +1,10 @@
 import './App.css'
-import Myheader from "./components/Mydeader"
+import Myheader from "./components/Myheader"
 import Nav from "./components/Nav"
 import MyArtcile from "./components/MyArticle"
 function App() {
-  return (<>
+  return (
+  <>
     <Myheader />
     <Nav />
     <MyArtcile
