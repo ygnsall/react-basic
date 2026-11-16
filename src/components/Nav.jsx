@@ -1,17 +1,17 @@
 //Nav 컴포넌트
-function Nav() {
+function Nav({ data }) {
+  const lists = data.map(d => (
+    <li key={d.id}>
+      <a href="">P{d.title}</a>
+    </li>
+  ))
+  // list에 출력할 코드 생성
   return (
-    <ul>
-      <li>
-        <a href="">UI/UX 개발</a>
-      </li>
-      <li>
-        <a href="">재사용이 가능한 UI 개발</a>
-      </li>
-      <li>
-        <a href="">애니메이션 구현</a>
-      </li>
-    </ul>
+    <nav>
+      <ul>
+        {lists}
+      </ul>
+    </nav>
   );
 }
 
